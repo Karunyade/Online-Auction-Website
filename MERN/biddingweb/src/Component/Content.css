@@ -1,0 +1,24 @@
+.leftcolumn{
+    float:left;
+    width:75%;
+    align-items: center;
+    background-color: yellow;
+    height: 500px;
+}
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    background-color: rgb(5, 171, 121);
+    color: white;
+    height: 500px;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}

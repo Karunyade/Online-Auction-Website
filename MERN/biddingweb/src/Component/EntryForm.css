@@ -1,0 +1,28 @@
+.ef{
+    padding-left: 100px;
+    margin: auto;
+    width: 600px;
+    margin-top: 100px !important;
+    border: 2px,line,#ee8b01;
+}
+.pad{
+    padding: 10px;
+}
+span{
+    float: left;
+    width: 11em;
+    text-align: right;
+}
+fieldset{
+    margin-bottom: 1em;
+}
+input:focus{
+    border: 2px solid #4c0129;
+}
+.btdiv{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+

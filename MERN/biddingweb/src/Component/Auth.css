@@ -1,0 +1,35 @@
+.auth {
+    display: flex;
+    justify-content: space-around; /* Adjust this value as needed */
+    width: 100%;
+    margin-top: 20px; /* Optional margin for spacing */
+  }
+  
+  .auth-container {
+    flex: 1; /* Occupy available space */
+    padding: 10px; /* Optional padding for each form */
+  }
+
+.ef{
+    padding-left: 100px;
+    width: 600px;
+    margin-top: 100px !important;
+}
+.pad{
+    padding: 10px;
+}
+span{
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+fieldset{
+    margin-bottom: 1em;
+}
+.auth-container{
+    margin-left: 15px;
+}
+
+
+
+

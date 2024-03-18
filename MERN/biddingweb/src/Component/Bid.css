@@ -1,0 +1,52 @@
+
+.bid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-left: 8%;
+}
+
+.bid-item {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 20px;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden; 
+  flex-shrink: 0; 
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.details-container {
+  flex-grow: 1; 
+  text-transform: capitalize;
+  margin-left: 25%;
+}
+
+.details-container p {
+  margin: 0;
+  margin-bottom: 11px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bid-input {
+  order: -1;
+  width: 18%;
+  padding: 8px;
+  margin-bottom: 8px;
+  text-align: right; 
+  border-radius: 8px;
+  margin-left: 2rem;
+}
+
+
